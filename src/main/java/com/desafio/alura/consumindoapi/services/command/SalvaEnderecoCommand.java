@@ -1,6 +1,5 @@
-package com.desafio.alura.consumindoapi.services;
+package com.desafio.alura.consumindoapi.services.command;
 
-import com.desafio.alura.consumindoapi.domain.Endereco;
 import com.desafio.alura.consumindoapi.persistence.EnderecoPersistence;
 
 public class SalvaEnderecoCommand implements Command{

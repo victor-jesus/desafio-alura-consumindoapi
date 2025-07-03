@@ -1,7 +1,7 @@
 package com.desafio.alura.consumindoapi;
 
-import com.desafio.alura.consumindoapi.services.Command;
-import com.desafio.alura.consumindoapi.services.GetEnderecoCommand;
+import com.desafio.alura.consumindoapi.services.command.Command;
+import com.desafio.alura.consumindoapi.services.command.GetEnderecoCommand;
 
 import java.util.Scanner;
 

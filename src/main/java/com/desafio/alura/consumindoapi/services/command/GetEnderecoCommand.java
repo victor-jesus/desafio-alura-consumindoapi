@@ -1,6 +1,7 @@
-package com.desafio.alura.consumindoapi.services;
+package com.desafio.alura.consumindoapi.services.command;
 
 import com.desafio.alura.consumindoapi.domain.Endereco;
+import com.desafio.alura.consumindoapi.services.EnderecoService;
 
 public class GetEnderecoCommand implements Command {
     String caminho;
@@ -18,7 +19,7 @@ public class GetEnderecoCommand implements Command {
             Endereco endereco = enderecoService.getEndereco(caminho, uri);
             System.out.println(endereco);
         } catch (Exception e) {
-            System.err.println("Erro ao obter endereço: " + e.getMessage());
+            System.err.println(e.getMessage());
         }
     }
 }
