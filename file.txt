@@ -1,0 +1,15 @@
+{
+  "cep": "05874-030",
+  "logradouro": "Rua Antônio de Melo Freitas",
+  "complemento": "",
+  "unidade": "",
+  "bairro": "Parque Santo Amaro",
+  "localidade": "São Paulo",
+  "uf": "SP",
+  "estado": "São Paulo",
+  "regiao": "Sudeste",
+  "ibge": "3550308",
+  "gia": "1004",
+  "ddd": "11",
+  "siafi": "7107"
+}
